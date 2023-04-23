@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>kelvin's Static Site Generator!</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/over-ons.html">Over Ons</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Posts</h2>
+        <ul>
+          {% for post in posts %}
+          <li>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.date | date("%Y-%m-%d") }}</p>
+            <p>{{ post.excerpt }}</p>
+            <p>Categories: {{ post.categories | join(", ") }}</p>
+            <p>Tags: {{ post.tags | join(", ") }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h2>Pages</h2>
+        <ul>
+          {%- for page in pages -%}
+            {% if page.title != "Contact" and page.title != "Over ons"  and page.title != "Startpagina" %}
+              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endif %}
+          {%- endfor -%}
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 - Labo7</p>
+    </footer>
+  </body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+</head>
+<body>
+    <h1>{{ site.title }}</h1>
+	{% for post in posts %}
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<p>{{ post.date }}</p>
+	{% endfor %}
+</body>
+</html> -->

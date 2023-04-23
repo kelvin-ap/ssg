@@ -1,0 +1,7 @@
+site_title: Mijn statische website
+site_author: Kelvin
+site_url: https://kelvin-ap.github.io/ssg/
+template_path: templates/
+pages_path: pages/
+posts_path: posts/
+output_path: ../_site/
