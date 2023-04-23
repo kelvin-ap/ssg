@@ -1,14 +1,13 @@
 ---
-title: "De voordelen van een externe harde schijf"
-date: "2023-03-20"
-author: "Jan Janssen"
+title: "Post 2"
+author: "mike oxmall"
 categories:
   - "Hardware"
   - "Opslag"
 tags:
   - "Externe harde schijf"
   - "Back-up"
-url: "/post-1.html"
+url: "/ssg/post-1.html"
 template: "post.html"
 ---
 

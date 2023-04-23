@@ -21,7 +21,6 @@
           {% for post in posts %}
           <li>
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p>{{ post.date | date("%Y-%m-%d") }}</p>
             <p>{{ post.excerpt }}</p>
             <p>Categories: {{ post.categories | join(", ") }}</p>
             <p>Tags: {{ post.tags | join(", ") }}</p>
@@ -41,7 +40,7 @@
       </section>
     </main>
     <footer>
-      <p>&copy; 2023 - Labo7</p>
+      <p>&copy; 2023 - Static site Generator Labo - Kelvin B.</p>
     </footer>
   </body>
 </html>

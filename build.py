@@ -26,24 +26,34 @@ def generate_posts():
             # Open het bestand en lees de inhoud
             with open(os.path.join(POSTS_DIR, filename), "r") as file:
                 content = file.read()
+
             # Parse de front matter en de inhoud
             front_matter, markdown_content = content.split("---")[1:]
+
             # Parse de YAML en sla de waarden op als variabelen
             variables = yaml.safe_load(front_matter)
             fm_posts.append(variables)
+
             # Converteer de inhoud van Markdown naar HTML
             html_content = markdown.markdown(markdown_content)
+
             # Kies het juiste template voor de post
             template = env.get_template(variables.get("template", "post.html"))
+            
+
             # Maak een nieuwe HTML-string met behulp van de template en de variabelen
             html_output = template.render(title=variables.get("title"), content=html_content, post=fm_posts)
+
             # Bepaal het uitvoerbestand voor de post
             output_file = os.path.join(OUTPUT_DIR, filename.replace(".md", ".html"))
+
             # Als het de startpagina is, sla deze op als 'index.html'
             if variables.get("url") == "/":
                 output_file = os.path.join(OUTPUT_DIR, "index.html")
+
             # Voeg de post toe aan de lijst van posts om te genereren
             posts.append((output_file, html_output))
+
     return posts
 
 def generate_pages(posts):
@@ -51,21 +61,37 @@ def generate_pages(posts):
     pages = []
     fm_pages = []
 
-    # Loop door alle bestanden in de 'pages' map
+    # Loop through all files in the 'pages' directory
     for filename in os.listdir(PAGES_DIR):
+        # Check if file is a Markdown file
         if filename.endswith(".md"):
+            # Read the file content
             with open(os.path.join(PAGES_DIR, filename), "r") as file:
                 content = file.read()
+
+            # Split front matter and Markdown content
             front_matter, markdown_content = content.split("---")[1:]
+
+            # Load front matter variables from YAML
             variables = yaml.safe_load(front_matter)
             fm_pages.append(variables)
+
+            # Convert Markdown content to HTML
             html_content = markdown.markdown(markdown_content)
+
+            # Load page template and render HTML output
             template = env.get_template(variables.get("template", "page.html"))
             html_output = template.render(title=variables.get("title"), content=html_content, pages=fm_pages, posts=posts)
+
+            # Set output file name
             output_file = os.path.join(OUTPUT_DIR, filename.replace(".md", ".html"))
             if variables.get("url") == "/":
                 output_file = os.path.join(OUTPUT_DIR, "index.html")
+
+            # Add output file and HTML content to pages list
             pages.append((output_file, html_output))
+
+    # Return the pages list
     return pages
 
 def build():
@@ -79,9 +105,5 @@ def build():
 
     # Schrijf de HTML-bestanden
     for output_file, html_output in pages:
-        with open(output_file, "w") as file:
-            file.write(html_output)
-
-    for output_file, html_output in posts:
         with open(output_file, "w") as file:
             file.write(html_output)

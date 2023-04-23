@@ -1,0 +1,101 @@
+/* Reset alle standaard marges en paddings */
+* {
+margin: 0;
+padding: 0;
+}
+
+/* Maak de body volledig gevuld met een achtergrondkleur */
+body {
+background-color: #f2f2f2;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+/* Style de header met een achtergrondkleur, uitgelijnd in het midden van de pagina */
+header {
+background-color: #333;
+display: flex;
+justify-content: center;
+}
+
+/* Maak de navigatie horizontaal en maak de links wit met een hover-effect */
+nav ul {
+list-style: none;
+display: flex;
+}
+
+nav li {
+margin: 0 10px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+color: #dd1515;
+}
+
+/* Style de hoofdinhoud met een maximale breedte en marges */
+main {
+max-width: 900px;
+margin: 0 auto;
+flex-grow: 1;
+padding: 20px;
+}
+
+/* Geef een achtergrondkleur en afgeronde hoeken aan de secties */
+section {
+background-color: white;
+border-radius: 5px;
+padding: 30px;
+margin: 10px 0;
+}
+
+/* Style de koppen in de secties */
+section h2 {
+margin-bottom: 10px;
+}
+
+/* Style de post- en paginalijsten */
+ul {
+border: 8px solid lightgrey;
+background-color: lightgray;
+border-radius: 19px 19px 19px 19px;
+-webkit-border-radius: 19px 19px 19px 19px;
+-moz-border-radius: 19px 19px 19px 19px;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+/* Style de post- en paginakoppels */
+li {
+margin-bottom: 20px;
+}
+
+li h3 a {
+color: #333;
+text-decoration: none;
+}
+
+li p:first-child {
+font-style: italic;
+color: #999;
+margin-bottom: 10px;
+}
+
+li p:not(:first-child) {
+margin-bottom: 5px;
+}
+
+/* Style de footer met een achtergrondkleur */
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+}

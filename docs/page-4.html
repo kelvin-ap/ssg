@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Nvidia kondigt nieuwe RTX 30-series laptop GPU's aan</title>
+    <link rel="stylesheet" href="style.css">
+    <title>GhostToken Flaw Could Let Attackers Hide Malicious Apps in Google Cloud Platform</title>
   </head>
   <body>
     <header>
@@ -16,15 +17,29 @@
     </header>
     <main>
       <section>
-        <h1>Nvidia kondigt nieuwe RTX 30-series laptop GPU's aan</h1>
+        <h1>GhostToken Flaw Could Let Attackers Hide Malicious Apps in Google Cloud Platform</h1>
         <div>
-          <p>Nvidia heeft onlangs nieuwe laptop-GPU's aangekondigd, waaronder de RTX 3050 en RTX 3050 Ti. Deze GPU's zijn gebaseerd op de 
-            nieuwste Ampere-architectuur van Nvidia en bieden aanzienlijk betere prestaties dan de vorige generatie.</p>
+          <p>
+            Google has patched a zero-day flaw in its cloud platform that could have allowed cybercriminals to conceal an 
+            unremovable malicious application in a victim's account. Researchers from Israeli cybersecurity start-up Astrix 
+            Security discovered the GhostToken flaw, which affected all Google accounts including Workspace accounts, and 
+            reported it to Google on June 19, 2022. The flaw enabled attackers to gain permanent and unremovable access to 
+            victims' Google accounts by transforming an already authorised third-party application into a malicious trojan 
+            app, leaving the victim's personal data exposed forever. Google issued a patch globally on April 7, 2023.
+          </p>
+          <br>
+          <p>
+            The flaw involved deleting the Google Cloud Platform project linked to the authorised OAuth app, which then 
+            went into a "pending deletion" state. The attacker could then make the rogue app visible again and use the 
+            access token to extract the victim's data, deleting the project and making it invisible once again. Google's 
+            patch now displays apps in a pending deletion state on the third-party access page, enabling users to revoke 
+            any permissions granted to such apps.
+          </p>
         </div>
       </section>
     </main>
     <footer>
-      <p>&copy; 2023 - Static site Generator Labo</p>
+      <p>&copy; 2023 - Static site Generator Labo - Kelvin B.</p>
     </footer>
   </body>
 </html>
