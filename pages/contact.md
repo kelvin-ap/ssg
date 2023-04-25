@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Contact"
-url: "/contact.html"
+url: "/ssg/contact.html"
 ---
 
 ## Neem contact met ons op

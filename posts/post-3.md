@@ -1,14 +1,16 @@
 ---
-title: "Post 3"
-author: "mike oxmall"
+title: "Hoe u uw computer kunt beschermen tegen malware"
+date: "2023-03-27"
+author: "Peter de Vries"
 categories:
-  - "Hardware"
-  - "Opslag"
+  - "Beveiliging"
+  - "Software"
 tags:
-  - "Externe harde schijf"
-  - "Back-up"
-url: "/ssg/post-1.html"
+  - "Malware"
+  - "Antivirussoftware"
+  - "Veilig browsen"
+url: "/ssg/post-3.html"
 template: "post.html"
 ---
 
-Externe harde schijven zijn een handige manier om extra opslagruimte toe te voegen aan uw computer. In deze blogpost zullen we de voordelen van een externe harde schijf bespreken en waarom het een slimme investering kan zijn.
+Malware kan uw computer en persoonlijke informatie in gevaar brengen. In deze blogpost zullen we enkele stappen delen die u kunt nemen om uw computer te beschermen tegen malware, waaronder het installeren van antivirussoftware, het up-to-date houden van uw software en het vermijden van onbekende links en downloads.

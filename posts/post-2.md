@@ -1,14 +1,16 @@
 ---
-title: "Post 2"
-author: "mike oxmall"
+title: "Tips voor het bouwen van een gaming-pc"
+date: "2023-03-23"
+author: "Lisa Peters"
 categories:
   - "Hardware"
-  - "Opslag"
+  - "Gaming"
 tags:
-  - "Externe harde schijf"
-  - "Back-up"
-url: "/ssg/post-1.html"
+  - "Gaming-pc"
+  - "Componenten"
+  - "Assemblage"
+url: "/ssg/post-2.html"
 template: "post.html"
 ---
 
-Externe harde schijven zijn een handige manier om extra opslagruimte toe te voegen aan uw computer. In deze blogpost zullen we de voordelen van een externe harde schijf bespreken en waarom het een slimme investering kan zijn.
+Het bouwen van een gaming-pc kan intimiderend lijken, maar het kan ook leuk en lonend zijn. In deze blogpost zullen we enkele tips delen om u te helpen bij het bouwen van uw eigen gaming-pc, inclusief componentselectie, assemblage en optimalisatie.

@@ -1,6 +1,6 @@
 ---
 title: "Startpagina"
 date: "2023-04-16"
-url: "/"
+url: "/ssg/"
 template: "home.html"
 ---

@@ -19,25 +19,40 @@
       <section>
         <h2>Posts</h2>
         <ul>
-          {% for post in posts %}
+          
           <li>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p>{{ post.excerpt }}</p>
-            <p>Categories: {{ post.categories | join(", ") }}</p>
-            <p>Tags: {{ post.tags | join(", ") }}</p>
+            <h3><a href=""></a></h3>
+            <p></p>
+            <p>Categories: </p>
+            <p>Tags: </p>
           </li>
-          {% endfor %}
+          
+          <li>
+            <h3><a href=""></a></h3>
+            <p></p>
+            <p>Categories: </p>
+            <p>Tags: </p>
+          </li>
+          
+          <li>
+            <h3><a href=""></a></h3>
+            <p></p>
+            <p>Categories: </p>
+            <p>Tags: </p>
+          </li>
+          
+          <li>
+            <h3><a href=""></a></h3>
+            <p></p>
+            <p>Categories: </p>
+            <p>Tags: </p>
+          </li>
+          
         </ul>
       </section>
       <section>
         <h2>Pages</h2>
-        <ul>
-          {%- for page in pages -%}
-            {% if page.title != "Contact" and page.title != "Over ons"  and page.title != "Startpagina" %}
-              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-            {% endif %}
-          {%- endfor -%}
-        </ul>
+        <ul></ul>
       </section>
     </main>
     <footer>

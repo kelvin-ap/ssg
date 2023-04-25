@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Over ons"
-url: "/over-ons.html"
+url: "/ssg/over-ons.html"
 ---
 
 ## Wie zijn wij?

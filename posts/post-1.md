@@ -1,6 +1,7 @@
 ---
-title: "Post 1"
-author: "mike oxmall"
+title: "De voordelen van een externe harde schijf"
+date: "2023-03-20"
+author: "Jan Janssen"
 categories:
   - "Hardware"
   - "Opslag"

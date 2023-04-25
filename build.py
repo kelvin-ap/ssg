@@ -20,7 +20,7 @@ def generate_posts():
     fm_posts = []
 
     # Loop door alle bestanden in de 'posts' map
-    for filename in os.listdir(POSTS_DIR):
+    for filename in os.listdir(POSTS_DIR):        
         # Zorg ervoor dat het een Markdown-bestand is
         if filename.endswith(".md"):
             # Open het bestand en lees de inhoud
@@ -42,7 +42,7 @@ def generate_posts():
             
 
             # Maak een nieuwe HTML-string met behulp van de template en de variabelen
-            html_output = template.render(title=variables.get("title"), content=html_content, post=fm_posts)
+            html_output = template.render(title=variables.get("title"), content=html_content, post=posts)
 
             # Bepaal het uitvoerbestand voor de post
             output_file = os.path.join(OUTPUT_DIR, filename.replace(".md", ".html"))
@@ -53,8 +53,11 @@ def generate_posts():
 
             # Voeg de post toe aan de lijst van posts om te genereren
             posts.append((output_file, html_output))
-
+            
     return posts
+
+
+#momenteel blijkt generate_posts output oke te zijn, fout zit elders
 
 def generate_pages(posts):
     # Lijst van pagina's om te genereren
@@ -107,3 +110,10 @@ def build():
     for output_file, html_output in pages:
         with open(output_file, "w") as file:
             file.write(html_output)
+    
+    for output_file, html_output in posts:
+        with open(output_file, "w") as file:
+            file.write(html_output)
+
+if __name__ == '__main__':
+    build()
