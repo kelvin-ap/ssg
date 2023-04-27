@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style.css">
-    <title>kelvin's Static Site Generator!</title>
+    <title>kelvin's ssg opdracht</title>
   </head>
   <body>
     <header>
@@ -27,16 +27,6 @@
             <p>Tags: {{ post.tags | join(", ") }}</p>
           </li>
           {% endfor %}
-        </ul>
-      </section>
-      <section>
-        <h2>Pages</h2>
-        <ul>
-          {%- for page in pages -%}
-            {% if page.title != "Contact" and page.title != "Over ons"  and page.title != "Startpagina" %}
-              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-            {% endif %}
-          {%- endfor -%}
         </ul>
       </section>
     </main>
