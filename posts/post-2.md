@@ -1,16 +1,14 @@
 ---
-title: "Tips voor het bouwen van een gaming-pc"
-date: "2023-03-23"
-author: "Lisa Peters"
+title: "Hoe uw dieet uw productiviteit kan beïnvloeden"
+date: "2023-04-09"
+author: "Mark de Vries"
 categories:
-  - "Hardware"
-  - "Gaming"
+  - "Gezondheid"
 tags:
-  - "Gaming-pc"
-  - "Componenten"
-  - "Assemblage"
-url: "/ssg/post-2.html"
+  - "Voeding"
+  - "Productiviteit"
+url: "/ssg/post-3.html"
 template: "post.html"
 ---
 
-Het bouwen van een gaming-pc kan intimiderend lijken, maar het kan ook leuk en lonend zijn. In deze blogpost zullen we enkele tips delen om u te helpen bij het bouwen van uw eigen gaming-pc, inclusief componentselectie, assemblage en optimalisatie.
+Het dieet dat u volgt kan van invloed zijn op uw algehele gezondheid en welzijn, inclusief uw productiviteit. In deze blogpost zullen we bespreken hoe uw dieet uw productiviteit kan beïnvloeden en enkele tips delen voor het verbeteren van uw dieet om uw productiviteit te verhogen.

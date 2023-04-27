@@ -1,7 +1,7 @@
 ---
-title: "Apple kondigt nieuwe iMac en iPad Pro aan"
+title: "De opkomst van duurzame mode"
 url: "/ssg/page-2.html"
 template: "page.html"
 ---
 
-Apple heeft onlangs een nieuwe iMac aangekondigd met een compleet nieuw ontwerp en de M1-chip van Apple. Ook heeft Apple een nieuwe iPad Pro aangekondigd met een M1-chip en een Mini-LED-scherm.
+Duurzame mode is de laatste tijd steeds populairder geworden, waarbij consumenten steeds meer aandacht besteden aan de milieu-impact van de kleding die ze dragen. In dit artikel zullen we bespreken wat duurzame mode is, waarom het belangrijk is en hoe u uw garderobe duurzamer kunt maken.

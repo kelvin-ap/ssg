@@ -1,16 +1,15 @@
 ---
-title: "Hoe u uw computer kunt beschermen tegen malware"
-date: "2023-03-27"
-author: "Peter de Vries"
+title: "De impact van klimaatverandering op de wereldwijde voedselvoorziening"
+date: "2023-04-16"
+author: "Sarah de Jong"
 categories:
-  - "Beveiliging"
-  - "Software"
+  - "Milieu"
+  - "Voeding"
 tags:
-  - "Malware"
-  - "Antivirussoftware"
-  - "Veilig browsen"
-url: "/ssg/post-3.html"
+  - "Klimaatverandering"
+  - "Voedselvoorziening"
+url: "/ssg/post-4.html"
 template: "post.html"
 ---
 
-Malware kan uw computer en persoonlijke informatie in gevaar brengen. In deze blogpost zullen we enkele stappen delen die u kunt nemen om uw computer te beschermen tegen malware, waaronder het installeren van antivirussoftware, het up-to-date houden van uw software en het vermijden van onbekende links en downloads.
+Klimaatverandering heeft niet alleen gevolgen voor ons milieu en onze planeet, maar ook voor onze voedselvoorziening. In deze blogpost zullen we bespreken wat de impact van klimaatverandering is op de wereldwijde voedselvoorziening en welke stappen we kunnen nemen om deze impact te verminderen.

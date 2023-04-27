@@ -6,15 +6,15 @@ url: "/ssg/over-ons.html"
 
 ## Wie zijn wij?
 
-Wij zijn een team van computerliefhebbers met een passie voor technologie. Ons doel is om onze kennis en ervaring te delen met anderen en hen te helpen bij het begrijpen en gebruiken van technologie.
+Wij zijn een team van voedingsdeskundigen met een passie voor gezonde voeding. Ons doel is om mensen te helpen bij het begrijpen van voedingswaarden en hen te ondersteunen bij het maken van gezonde keuzes.
 
 ## Onze missie
 
-Onze missie is om technologie toegankelijker te maken voor iedereen. We willen dat mensen zich zelfverzekerder voelen bij het gebruik van computers en gadgets en hen helpen het meeste uit hun apparaten te halen.
+Onze missie is om gezonde voeding toegankelijker te maken voor iedereen. We willen dat mensen zich bewust worden van wat ze eten en hoe dit hun gezondheid kan beïnvloeden. Onze focus ligt op het bieden van praktisch advies en educatie om mensen te helpen gezonde eetgewoontes aan te nemen.
 
 ## Ons team
 
-Ons team bestaat uit ervaren technologieliefhebbers met een achtergrond in computerwetenschappen en engineering. We hebben een brede kennis van verschillende technologieën en besturingssystemen, en we zijn altijd op de hoogte van de nieuwste ontwikkelingen en trends.
+Ons team bestaat uit ervaren voedingsdeskundigen met een achtergrond in gezondheidswetenschappen en voeding. We hebben een brede kennis van verschillende voedingsstoffen en diëten, en we zijn altijd op de hoogte van de nieuwste onderzoeken en trends in de voedingsindustrie.
 
 ## Contacteer ons
 

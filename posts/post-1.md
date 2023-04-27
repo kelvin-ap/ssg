@@ -1,15 +1,14 @@
 ---
-title: "De voordelen van een externe harde schijf"
-date: "2023-03-20"
-author: "Jan Janssen"
+title: "De kracht van mindfulness meditatie"
+date: "2023-04-02"
+author: "Lisa van Dijk"
 categories:
-  - "Hardware"
-  - "Opslag"
+  - "Gezondheid"
 tags:
-  - "Externe harde schijf"
-  - "Back-up"
-url: "/ssg/post-1.html"
+  - "Mindfulness"
+  - "Meditatie"
+url: "/ssg/post-2.html"
 template: "post.html"
 ---
 
-Externe harde schijven zijn een handige manier om extra opslagruimte toe te voegen aan uw computer. In deze blogpost zullen we de voordelen van een externe harde schijf bespreken en waarom het een slimme investering kan zijn.
+Meditatie is een praktijk die steeds populairder wordt voor mensen die op zoek zijn naar manieren om stress en angst te verminderen. In deze blogpost zullen we de kracht van mindfulness meditatie bespreken en hoe het kan helpen bij het verbeteren van uw mentale en emotionele welzijn.

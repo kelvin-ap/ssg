@@ -1,16 +1,15 @@
 ---
-title: "Het belang van regelmatig onderhoud van uw computer"
-date: "2023-04-02"
-author: "Laura van der Meer"
+title: "Waarom reizen goed is voor uw mentale gezondheid"
+date: "2023-04-23"
+author: "Tim de Boer"
 categories:
-  - "Onderhoud"
-  - "Hardware"
+  - "Reizen"
+  - "Gezondheid"
 tags:
-  - "Computer onderhoud"
-  - "Schoonmaak"
-  - "Updates"
-url: "/ssg/post-4.html"
+  - "Mentale gezondheid"
+  - "Reizen"
+url: "/ssg/post-5.html"
 template: "post.html"
 ---
 
-Net als een auto heeft uw computer regelmatig onderhoud nodig om goed te blijven werken. In deze blogpost zullen we bespreken waarom regelmatig onderhoud van uw computer belangrijk is en enkele stappen delen die u kunt nemen om uw computer in topconditie te houden.
+Reizen is een geweldige manier om nieuwe ervaringen op te doen, nieuwe culturen te ontdekken en nieuwe mensen te ontmoeten. Maar wist u dat reizen ook goed kan zijn voor uw mentale gezondheid? In deze blogpost zullen we bespreken waarom reizen goed is voor uw mentale gezondheid en hoe u het meeste uit uw reizen kunt halen om uw mentale welzijn te verbeteren.

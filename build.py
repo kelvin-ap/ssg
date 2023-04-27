@@ -138,7 +138,7 @@ for output_file, html_output in posts:
 #             # Voeg de pagina toe aan de lijst van pagina's om te genereren
 #             posts.append((output_file, html_output))
 
-    #return pages
+#     return posts
 
 # #momenteel blijkt generate_posts output oke te zijn, fout zit elders
 
@@ -171,14 +171,14 @@ for output_file, html_output in posts:
 
 #             # Set output file name
 #             output_file = os.path.join(OUTPUT_DIR, filename.replace(".md", ".html"))
-#             if variables.get("url") == "/ssg/":
+#             if variables.get("url") == "/":
 #                 output_file = os.path.join(OUTPUT_DIR, "index.html")
 
 #             # Add output file and HTML content to pages list
 #             pages.append((output_file, html_output))
 
 #     # Return the pages list
-#     #return pages
+#     return pages
 
 # def build():
 #     # Genereer posts en pagina's
